@@ -1,0 +1,18 @@
+name: TimeFreezeLite
+version: '1.14514'
+main: com.wsx.timefreezelite.TimeFreezeLite
+api-version: '1.19'
+authors: [wsx]
+description: To auto stop DaylightCycle  when no player
+
+commands:
+  timefreeze:
+    aliases: tfz
+    description: timefreeze command.
+    usage: /<command>
+    permission: tfz.op
+    permission-message: You don't have <permission>
+
+permissions:
+  tfz.op:
+    default: op

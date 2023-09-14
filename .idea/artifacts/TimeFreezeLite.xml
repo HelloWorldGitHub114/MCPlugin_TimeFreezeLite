@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TimeFreezeLite">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="archive" name="TimeFreezeLite.jar">
+      <element id="module-output" name="TimeFreezeLite.main" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
